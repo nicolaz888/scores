@@ -1,0 +1,4 @@
+const PROGRAM_FOUNDATIONS = "Foundations";
+const PROGRAM_SPECIALIZATIONS = "Specialization";
+
+module.exports = { PROGRAM_FOUNDATIONS, PROGRAM_SPECIALIZATIONS }

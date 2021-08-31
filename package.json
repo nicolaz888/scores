@@ -1,0 +1,19 @@
+{
+  "name": "isa-holberton-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^10.0.0",
+    "googleapis": "^39.2.0",
+    "nodejs-base64-encode": "^1.1.0",
+    "puppeteer": "^10.2.0",
+    "scrape-it": "^5.3.1"
+  }
+}
