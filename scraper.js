@@ -5,9 +5,11 @@ require('dotenv').config()
 async function scrap(cohort) {
 
     const scoresLink = cohort.program === PROGRAM_FOUNDATIONS ? "#scores_1" : "#scores_2";
+    const scoresTable = cohort.program === PROGRAM_FOUNDATIONS ? '#scores_all_average_1' : '#scores_all_average_2';
 
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
+    await page.setViewport({ width: 1280, height: 800 })
     page.setDefaultTimeout(120000);
     await page.goto('https://intranet.hbtn.io');
 
@@ -21,15 +23,17 @@ async function scrap(cohort) {
 
     await page.goto(`https://intranet.hbtn.io/batches/${cohort.id}`);
 
+
     await page.click(`a[role="tab"][href="${scoresLink}"]`);
 
-    const tdsQuery = '#scores_all_average_1 table tbody tr td';
+    await page.screenshot({ path: 'example.png' });
+
+    const tdsQuery = `${scoresTable} table tbody tr td`;
 
     const tds = await page.$$eval(tdsQuery,
         elements => elements.map(element => element.textContent)
     );
 
-    await page.screenshot({ path: 'example.png' });
 
     await browser.close();
 
@@ -47,7 +51,9 @@ async function getScores(cohort) {
     for (const score of tds) {
 
         if (i % j == 0) {
-            finalScores.push([score === ' ' ? 'NA' : score]);
+            if (score !== ' ' && !tds[i - (cohort.trimester + 1)].includes('excluded from corrections')) {
+                finalScores.push([score]);
+            }
             j += cohort.trimester + 2;
         }
 
