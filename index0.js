@@ -4,8 +4,8 @@ const crypto = require('crypto');
 const apiPath = '/api/v1/students/2247';
 const url = 'https://intranet.hbtn.io' + apiPath;
 
-const key = 'be68b42c-5f08-4e0a-9061-49f3ee2571f5';
-const secret = 'ae1e460105f60cfc80347cd9d9a4c9afbe050c6ffe4c69ad9bd0b145c316c335342ec99696fa3128';
+const key = process.env.API_KEY;
+const secret = process.env.API_SECRET;
 
 const timestamp = Math.floor(Date.now() / 1000);
 
