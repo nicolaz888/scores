@@ -15,7 +15,7 @@ cohorts = [cohortEleven]
 
 main = async () => {
     try {
-        const result = await getScores(cohortTwelve);
+        const result = await getScores(cohortFourteen);
 
         if (result) {
 
