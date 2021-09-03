@@ -1,0 +1,2172 @@
+[
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T02:02:00.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      },
+      {
+        "completion": null,
+        "ended_at": "2021-10-01",
+        "id": 1184,
+        "name": "0x03. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-09-01"
+      }
+    ],
+    "email": "migdalis.lepage@holbertonschool.com",
+    "first_name": "Migdalis",
+    "id": 3519,
+    "last_name": "Lepage",
+    "last_sign_in_at": "2021-06-14T12:25:34.000Z",
+    "product": {
+      "average": 53.88,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T02:01:12.000Z",
+    "email": "martha.burgos@holbertonschool.com",
+    "first_name": "Martha",
+    "id": 3515,
+    "last_name": "Burgos",
+    "last_sign_in_at": "2021-06-07T16:36:04.000Z",
+    "product": {
+      "average": 0.8,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T02:00:51.000Z",
+    "email": "daniel.gonzalez@holbertonschool.com",
+    "first_name": "Daniel",
+    "id": 3512,
+    "last_name": "Gonzalez",
+    "last_sign_in_at": "2021-06-07T18:46:24.000Z",
+    "product": {
+      "average": 0,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T02:00:14.000Z",
+    "email": "vanessa.talero@holbertonschool.com",
+    "first_name": "Vanessa",
+    "id": 3510,
+    "last_name": "Talero",
+    "last_sign_in_at": "2021-07-12T22:28:23.000Z",
+    "product": {
+      "average": 71.77,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T02:00:08.000Z",
+    "email": "angee.gil@holbertonschool.com",
+    "first_name": "Angee",
+    "id": 3509,
+    "last_name": "Gil",
+    "last_sign_in_at": "2021-06-07T14:55:19.000Z",
+    "product": {
+      "average": 31.25,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T01:59:48.000Z",
+    "email": "marlon.navarro@holbertonschool.com",
+    "first_name": "Marlon",
+    "id": 3506,
+    "last_name": "Navarro",
+    "last_sign_in_at": "2021-06-10T18:03:45.000Z",
+    "product": {
+      "average": 23.3,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T01:59:41.000Z",
+    "email": "diego.florez@holbertonschool.com",
+    "first_name": "Diego",
+    "id": 3505,
+    "last_name": "Florez",
+    "last_sign_in_at": "2021-06-07T14:00:50.000Z",
+    "product": {
+      "average": 45.27,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T01:59:28.000Z",
+    "email": "richard.gil@holbertonschool.com",
+    "first_name": "Richard",
+    "id": 3503,
+    "last_name": "Gil",
+    "last_sign_in_at": "2021-06-08T13:21:22.000Z",
+    "product": {
+      "average": 1,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T01:59:15.000Z",
+    "email": "david.cancino@holbertonschool.com",
+    "first_name": "David",
+    "id": 3501,
+    "last_name": "Cancino",
+    "last_sign_in_at": null,
+    "product": {
+      "average": 0.8,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T01:58:42.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      },
+      {
+        "completion": null,
+        "ended_at": "2021-10-01",
+        "id": 1184,
+        "name": "0x03. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-09-01"
+      }
+    ],
+    "email": "carlos.matallana.1@holbertonschool.com",
+    "first_name": "Carlos",
+    "id": 3496,
+    "last_name": "Matallana",
+    "last_sign_in_at": "2021-09-01T01:47:45.000Z",
+    "product": {
+      "average": 87.47,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T01:58:29.000Z",
+    "email": "diego-leonardo.monroy-duran.1@holbertonschool.com",
+    "first_name": "Diego Leonardo",
+    "id": 3494,
+    "last_name": "Monroy Duran",
+    "last_sign_in_at": "2021-06-17T13:18:10.000Z",
+    "product": {
+      "average": 92.5,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T01:58:22.000Z",
+    "email": "andres.novoa@holbertonschool.com",
+    "first_name": "Andres",
+    "id": 3493,
+    "last_name": "Novoa",
+    "last_sign_in_at": "2021-06-24T15:41:41.000Z",
+    "product": {
+      "average": 47.57,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T01:57:58.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      },
+      {
+        "completion": null,
+        "ended_at": "2021-10-01",
+        "id": 1184,
+        "name": "0x03. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-09-01"
+      }
+    ],
+    "email": "juan-david.latorre-tuta@holbertonschool.com",
+    "first_name": "Juan David",
+    "id": 3489,
+    "last_name": "Latorre Tuta",
+    "last_sign_in_at": "2021-08-27T14:02:16.000Z",
+    "product": {
+      "average": 56.05,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T01:57:51.000Z",
+    "email": "cristian.betancur.1@holbertonschool.com",
+    "first_name": "Cristian",
+    "id": 3488,
+    "last_name": "Betancur",
+    "last_sign_in_at": null,
+    "product": {
+      "average": 0.76,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T01:57:38.000Z",
+    "email": "eileen-caterin.moreno-gamboa@holbertonschool.com",
+    "first_name": "Eileen Caterin",
+    "id": 3486,
+    "last_name": "Moreno Gamboa",
+    "last_sign_in_at": null,
+    "product": {
+      "average": 0.8,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T01:57:32.000Z",
+    "email": "julieth.barrera@holbertonschool.com",
+    "first_name": "Julieth",
+    "id": 3485,
+    "last_name": "Barrera",
+    "last_sign_in_at": "2021-06-23T23:31:16.000Z",
+    "product": {
+      "average": 16.97,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T01:57:25.000Z",
+    "email": "laura.nunez@holbertonschool.com",
+    "first_name": "Laura",
+    "id": 3484,
+    "last_name": "Nuñez",
+    "last_sign_in_at": "2021-06-08T15:37:41.000Z",
+    "product": {
+      "average": 0,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T01:57:13.000Z",
+    "email": "angie-julieth.ruiz-gaitan@holbertonschool.com",
+    "first_name": "Angie Julieth",
+    "id": 3482,
+    "last_name": "Ruiz Gaitan",
+    "last_sign_in_at": null,
+    "product": {
+      "average": 0.8,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T01:57:07.000Z",
+    "email": "camila.gutierrez-hastamorir@holbertonschool.com",
+    "first_name": "Camila",
+    "id": 3481,
+    "last_name": "Gutierrez Hastamorir",
+    "last_sign_in_at": null,
+    "product": {
+      "average": 0,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T01:56:48.000Z",
+    "email": "gabriela.acuna-botero@holbertonschool.com",
+    "first_name": "Gabriela",
+    "id": 3478,
+    "last_name": "Acuña Botero",
+    "last_sign_in_at": "2021-06-07T15:07:12.000Z",
+    "product": {
+      "average": 0,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T01:56:35.000Z",
+    "email": "sebastian.bonilla@holbertonschool.com",
+    "first_name": "Sebastian",
+    "id": 3476,
+    "last_name": "Bonilla",
+    "last_sign_in_at": "2021-06-16T03:15:32.000Z",
+    "product": {
+      "average": 11.47,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T01:56:01.000Z",
+    "email": "francisco-jose.galindo-huertas@holbertonschool.com",
+    "first_name": "Francisco José",
+    "id": 3471,
+    "last_name": "Galindo Huertas",
+    "last_sign_in_at": null,
+    "product": {
+      "average": 0,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-07T01:55:42.000Z",
+    "email": "juan-felipe.betancourt-rojas@holbertonschool.com",
+    "first_name": "Juan Felipe",
+    "id": 3468,
+    "last_name": "Betancourt Rojas",
+    "last_sign_in_at": null,
+    "product": {
+      "average": 0.8,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-05T23:55:56.000Z",
+    "email": "yuli-marcela.soler-sanchez@holbertonschool.com",
+    "first_name": "Yuli Marcela",
+    "id": 3466,
+    "last_name": "Soler Sánchez",
+    "last_sign_in_at": "2021-06-14T14:52:38.000Z",
+    "product": {
+      "average": 93.53,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-05T21:56:21.000Z",
+    "email": "dilan.espindola@holbertonschool.com",
+    "first_name": "Dilan",
+    "id": 3462,
+    "last_name": "Espindola",
+    "last_sign_in_at": "2021-06-07T14:00:29.000Z",
+    "product": {
+      "average": 89.62,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-04T21:56:19.000Z",
+    "email": "elena.rueda@holbertonschool.com",
+    "first_name": "Elena",
+    "id": 3442,
+    "last_name": "Rueda",
+    "last_sign_in_at": "2021-06-14T13:05:35.000Z",
+    "product": {
+      "average": 54.58,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-04T21:56:06.000Z",
+    "email": "rene.chavarro@holbertonschool.com",
+    "first_name": "René",
+    "id": 3440,
+    "last_name": "Chavarro",
+    "last_sign_in_at": "2021-06-09T03:29:22.000Z",
+    "product": {
+      "average": 18.07,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-04T19:55:49.000Z",
+    "email": "jaime.rodriguez@holbertonschool.com",
+    "first_name": "Jaime",
+    "id": 3433,
+    "last_name": "Rodríguez",
+    "last_sign_in_at": "2021-06-07T13:42:41.000Z",
+    "product": {
+      "average": 33.33,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-04T05:56:27.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      },
+      {
+        "completion": null,
+        "ended_at": "2021-10-01",
+        "id": 1184,
+        "name": "0x03. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-09-01"
+      }
+    ],
+    "email": "paola-andrea.garcia-altamirano@holbertonschool.com",
+    "first_name": "Paola Andrea",
+    "id": 3426,
+    "last_name": "García Altamirano",
+    "last_sign_in_at": "2021-08-28T11:18:32.000Z",
+    "product": {
+      "average": 111.78,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-04T05:56:14.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      },
+      {
+        "completion": null,
+        "ended_at": "2021-10-01",
+        "id": 1184,
+        "name": "0x03. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-09-01"
+      }
+    ],
+    "email": "nelson.gallego@holbertonschool.com",
+    "first_name": "Nelson",
+    "id": 3424,
+    "last_name": "Gallego",
+    "last_sign_in_at": "2021-08-24T13:05:21.000Z",
+    "product": {
+      "average": 68.1,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-04T05:56:04.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      },
+      {
+        "completion": null,
+        "ended_at": "2021-10-01",
+        "id": 1184,
+        "name": "0x03. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-09-01"
+      }
+    ],
+    "email": "angela.vergara@holbertonschool.com",
+    "first_name": "Angela",
+    "id": 3423,
+    "last_name": "Vergara",
+    "last_sign_in_at": "2021-08-22T18:46:51.000Z",
+    "product": {
+      "average": 119.23,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-04T05:55:44.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      },
+      {
+        "completion": null,
+        "ended_at": "2021-10-01",
+        "id": 1184,
+        "name": "0x03. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-09-01"
+      }
+    ],
+    "email": "maycol-david.roa-trivino@holbertonschool.com",
+    "first_name": "Maycol David",
+    "id": 3420,
+    "last_name": "Roa Triviño",
+    "last_sign_in_at": "2021-08-27T12:00:38.000Z",
+    "product": {
+      "average": 68.8,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-03T17:55:37.000Z",
+    "email": "daniel.ceron@holbertonschool.com",
+    "first_name": "Daniel",
+    "id": 3403,
+    "last_name": "Cerón Molina",
+    "last_sign_in_at": "2021-07-19T08:07:57.000Z",
+    "product": {
+      "average": 71.06,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-03T01:56:20.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      },
+      {
+        "completion": null,
+        "ended_at": "2021-10-01",
+        "id": 1184,
+        "name": "0x03. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-09-01"
+      }
+    ],
+    "email": "laura.callejas@holbertonschool.com",
+    "first_name": "Laura",
+    "id": 3398,
+    "last_name": "Callejas",
+    "last_sign_in_at": "2021-08-20T14:53:45.000Z",
+    "product": {
+      "average": 100.99,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-02T23:56:47.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      },
+      {
+        "completion": null,
+        "ended_at": "2021-10-01",
+        "id": 1184,
+        "name": "0x03. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-09-01"
+      }
+    ],
+    "email": "angelica.russi-rodriguez@holbertonschool.com",
+    "first_name": "Angelica Estefanía",
+    "id": 3390,
+    "last_name": "Russi Rodriguez",
+    "last_sign_in_at": "2021-08-28T06:06:12.000Z",
+    "product": {
+      "average": 105.82,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-02T23:56:34.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      },
+      {
+        "completion": null,
+        "ended_at": "2021-10-01",
+        "id": 1184,
+        "name": "0x03. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-09-01"
+      }
+    ],
+    "email": "juan.gonzalez@holbertonschool.com",
+    "first_name": "Juan Camilo",
+    "id": 3388,
+    "last_name": "González",
+    "last_sign_in_at": "2021-09-01T05:41:48.000Z",
+    "product": {
+      "average": 88.17,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-02T23:56:28.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      },
+      {
+        "completion": null,
+        "ended_at": "2021-10-01",
+        "id": 1184,
+        "name": "0x03. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-09-01"
+      }
+    ],
+    "email": "juan.garcia@holbertonschool.com",
+    "first_name": "Pablo",
+    "id": 3387,
+    "last_name": "García",
+    "last_sign_in_at": "2021-08-30T05:54:25.000Z",
+    "product": {
+      "average": 76.55,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-02T23:56:21.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      },
+      {
+        "completion": null,
+        "ended_at": "2021-10-01",
+        "id": 1184,
+        "name": "0x03. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-09-01"
+      }
+    ],
+    "email": "edisson.osorio@holbertonschool.com",
+    "first_name": "Edisson",
+    "id": 3386,
+    "last_name": "Osorio",
+    "last_sign_in_at": "2021-08-20T20:42:07.000Z",
+    "product": {
+      "average": 69.81,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-02T23:56:14.000Z",
+    "email": "sergio.castro@holbertonschool.com",
+    "first_name": "Sergio",
+    "id": 3385,
+    "last_name": "Castro",
+    "last_sign_in_at": "2021-06-21T12:02:28.000Z",
+    "product": {
+      "average": 81.48,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-02T23:55:52.000Z",
+    "email": "andrea--maria.guzman-ruiz@holbertonschool.com",
+    "first_name": "Andrea  Maria",
+    "id": 3382,
+    "last_name": "Guzman Ruiz",
+    "last_sign_in_at": "2021-06-16T00:07:48.000Z",
+    "product": {
+      "average": 85.83,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-02T23:55:45.000Z",
+    "email": "elvis.gabriel@holbertonschool.com",
+    "first_name": "Elvis",
+    "id": 3381,
+    "last_name": "Gabriel",
+    "last_sign_in_at": "2021-06-25T14:34:11.000Z",
+    "product": {
+      "average": 38.96,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-02T21:57:56.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      },
+      {
+        "completion": null,
+        "ended_at": "2021-10-01",
+        "id": 1184,
+        "name": "0x03. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-09-01"
+      }
+    ],
+    "email": "luz-alejandra.hincapie-cortes@holbertonschool.com",
+    "first_name": "Alejandra",
+    "id": 3375,
+    "last_name": "Hincapie Cortés",
+    "last_sign_in_at": "2021-08-26T21:24:59.000Z",
+    "product": {
+      "average": 95.86,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-02T21:57:17.000Z",
+    "email": "luis-andres.orozco-ardila@holbertonschool.com",
+    "first_name": "Luis Andres",
+    "id": 3369,
+    "last_name": "Orozco Ardila",
+    "last_sign_in_at": "2021-06-19T01:15:48.000Z",
+    "product": {
+      "average": 121.97,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-02T21:57:03.000Z",
+    "email": "monica.lozano-tovar@holbertonschool.com",
+    "first_name": "Monica",
+    "id": 3367,
+    "last_name": "Lozano Tovar",
+    "last_sign_in_at": "2021-06-28T14:32:05.000Z",
+    "product": {
+      "average": 99.86,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-02T21:56:51.000Z",
+    "email": "marisol.lozano-tovar@holbertonschool.com",
+    "first_name": "Marisol",
+    "id": 3365,
+    "last_name": "Lozano Tovar",
+    "last_sign_in_at": "2021-06-29T13:06:19.000Z",
+    "product": {
+      "average": 96.13,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-02T21:56:44.000Z",
+    "email": "ivan.osorio@holbertonschool.com",
+    "first_name": "Ivan",
+    "id": 3364,
+    "last_name": "Osorio",
+    "last_sign_in_at": "2021-06-07T14:15:01.000Z",
+    "product": {
+      "average": 19.23,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-02T21:56:31.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      },
+      {
+        "completion": null,
+        "ended_at": "2021-10-01",
+        "id": 1184,
+        "name": "0x03. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-09-01"
+      }
+    ],
+    "email": "andres-felipe.castaneda-pirateque@holbertonschool.com",
+    "first_name": "Andrés Felipe",
+    "id": 3362,
+    "last_name": "Castañeda Pirateque",
+    "last_sign_in_at": "2021-08-26T13:53:55.000Z",
+    "product": {
+      "average": 138.61,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-02T21:56:24.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      }
+    ],
+    "email": "leydi-joana.casallas-arenas@holbertonschool.com",
+    "first_name": "Joana",
+    "id": 3361,
+    "last_name": "Casallas Arenas",
+    "last_sign_in_at": "2021-08-28T13:38:18.000Z",
+    "product": {
+      "average": 95.42,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-02T21:56:17.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      },
+      {
+        "completion": null,
+        "ended_at": "2021-10-01",
+        "id": 1184,
+        "name": "0x03. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-09-01"
+      }
+    ],
+    "email": "rodrigo.zarate-algecira@holbertonschool.com",
+    "first_name": "Rodrigo",
+    "id": 3360,
+    "last_name": "Zárate Algecira",
+    "last_sign_in_at": "2021-08-26T11:12:18.000Z",
+    "product": {
+      "average": 111.66,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-02T19:57:31.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      },
+      {
+        "completion": null,
+        "ended_at": "2021-10-01",
+        "id": 1184,
+        "name": "0x03. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-09-01"
+      }
+    ],
+    "email": "juan-esteban.correa-perez@holbertonschool.com",
+    "first_name": "Juan Esteban",
+    "id": 3352,
+    "last_name": "Correa Pérez",
+    "last_sign_in_at": "2021-08-26T15:20:04.000Z",
+    "product": {
+      "average": 97.61,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-02T19:56:57.000Z",
+    "email": "brian-eduardo.manjarres-villamil@holbertonschool.com",
+    "first_name": "Brian Eduardo",
+    "id": 3347,
+    "last_name": "Manjarres Villamil",
+    "last_sign_in_at": "2021-06-24T13:22:20.000Z",
+    "product": {
+      "average": 113.74,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-02T19:56:20.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      },
+      {
+        "completion": null,
+        "ended_at": "2021-10-01",
+        "id": 1184,
+        "name": "0x03. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-09-01"
+      }
+    ],
+    "email": "maria-paula.medina@holbertonschool.com",
+    "first_name": "Maria Paula",
+    "id": 3341,
+    "last_name": "Medina",
+    "last_sign_in_at": "2021-08-27T13:46:02.000Z",
+    "product": {
+      "average": 105.48,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-02T17:55:50.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      },
+      {
+        "completion": null,
+        "ended_at": "2021-10-01",
+        "id": 1184,
+        "name": "0x03. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-09-01"
+      }
+    ],
+    "email": "angelica.rodriguez@holbertonschool.com",
+    "first_name": "Angelica",
+    "id": 3333,
+    "last_name": "Rodriguez",
+    "last_sign_in_at": "2021-09-01T01:15:14.000Z",
+    "product": {
+      "average": 81,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-01T23:55:38.000Z",
+    "email": "ligia-andrea.rodriguez@holbertonschool.com",
+    "first_name": "Andrea",
+    "id": 3315,
+    "last_name": "Rodríguez",
+    "last_sign_in_at": "2021-07-07T14:28:35.000Z",
+    "product": {
+      "average": 114.56,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-01T21:56:15.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      },
+      {
+        "completion": null,
+        "ended_at": "2021-10-01",
+        "id": 1184,
+        "name": "0x03. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-09-01"
+      }
+    ],
+    "email": "juan-david.pena@holbertonschool.com",
+    "first_name": "Juan David",
+    "id": 3314,
+    "last_name": "Peña",
+    "last_sign_in_at": "2021-08-25T16:47:46.000Z",
+    "product": {
+      "average": 145.03,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-01T21:55:54.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      },
+      {
+        "completion": null,
+        "ended_at": "2021-10-01",
+        "id": 1184,
+        "name": "0x03. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-09-01"
+      }
+    ],
+    "email": "juan-camilo.osorio@holbertonschool.com",
+    "first_name": "Juan Camilo",
+    "id": 3311,
+    "last_name": "Bocanegra Osorio",
+    "last_sign_in_at": "2021-08-23T21:27:38.000Z",
+    "product": {
+      "average": 133.81,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-06-01T21:55:36.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      },
+      {
+        "completion": null,
+        "ended_at": "2021-10-01",
+        "id": 1184,
+        "name": "0x03. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-09-01"
+      }
+    ],
+    "email": "cristian-david.oliveros-alfonso@holbertonschool.com",
+    "first_name": "Cristian David",
+    "id": 3308,
+    "last_name": "Oliveros Alfonso",
+    "last_sign_in_at": "2021-08-26T15:08:03.000Z",
+    "product": {
+      "average": 117.86,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-01-22T20:56:49.000Z",
+    "email": "juan-sebastian.tovar@holbertonschool.com",
+    "first_name": "Juan Sebastián",
+    "id": 2911,
+    "last_name": "Tovar Mogollón",
+    "last_sign_in_at": "2021-08-14T03:43:58.000Z",
+    "product": {
+      "average": 85.59,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-01-22T20:56:14.000Z",
+    "current_projects": [
+      {
+        "completion": null,
+        "ended_at": "2021-09-01",
+        "id": 1183,
+        "name": "0x02. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-08-01"
+      },
+      {
+        "completion": null,
+        "ended_at": "2021-10-01",
+        "id": 1184,
+        "name": "0x03. #100DaysOfCode",
+        "score": null,
+        "started_at": "2021-09-01"
+      }
+    ],
+    "email": "michael-jose.celeita-barbosa@holbertonschool.com",
+    "first_name": "Michael Jose",
+    "id": 2909,
+    "last_name": "Celeita Barbosa",
+    "last_sign_in_at": "2021-08-19T14:15:28.000Z",
+    "product": {
+      "average": 58.13,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-01-22T15:57:11.000Z",
+    "email": "diana.ayala@holbertonschool.com",
+    "first_name": "Diana",
+    "id": 2872,
+    "last_name": "Ayala",
+    "last_sign_in_at": "2021-06-08T14:49:10.000Z",
+    "product": {
+      "average": 85.09,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2021-01-20T13:55:50.000Z",
+    "email": "juan-david.trujillo@holbertonschool.com",
+    "first_name": "Juan David",
+    "id": 2772,
+    "last_name": "Trujillo",
+    "last_sign_in_at": "2021-04-10T16:56:18.000Z",
+    "product": {
+      "average": 46.18,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": true,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2020-09-03T01:56:14.000Z",
+    "email": "julio-cesar.arenas-borrero@holbertonschool.com",
+    "first_name": "Julio Cesar",
+    "id": 2404,
+    "last_name": "Arenas Borrero",
+    "last_sign_in_at": "2021-08-08T03:53:15.000Z",
+    "product": {
+      "average": 111.67,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  },
+  {
+    "active": false,
+    "cohort": {
+      "id": 113,
+      "name": "BOG-0621",
+      "number": 15
+    },
+    "created_at": "2020-05-29T07:59:54.000Z",
+    "email": "yermy-andres.sotelo-parra@holbertonschool.com",
+    "first_name": "Yermy Andres",
+    "id": 2058,
+    "last_name": "Sotelo Parra",
+    "last_sign_in_at": null,
+    "product": {
+      "average": 0,
+      "code": "1",
+      "cohort": {
+        "id": 113,
+        "name": "BOG-0621",
+        "number": 15
+      },
+      "completion": null,
+      "end_date": "2022-03-25",
+      "id": 1,
+      "start_date": "2021-06-07",
+      "title": "Foundations"
+    }
+  }
+]

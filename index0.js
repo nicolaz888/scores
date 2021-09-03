@@ -1,7 +1,9 @@
+require('dotenv').config()
 const axios = require('axios');
 const crypto = require('crypto');
+const fs = require('fs');
 
-const apiPath = '/api/v1/students/2247';
+const apiPath = '/api/v1/cohorts/78/students';
 const url = 'https://intranet.hbtn.io' + apiPath;
 
 const key = process.env.API_KEY;
@@ -38,7 +40,7 @@ async function getStudentsFromCohort() {
     try {
         const result = await axios(options);
 
-        console.log(result.data);
+        return result.data.items;
     }
     catch (error) {
         console.log(`foooc: ${error}`);
@@ -46,4 +48,17 @@ async function getStudentsFromCohort() {
     }
 }
 
-getStudentsFromCohort();
+async function main() {
+
+    const result = await getStudentsFromCohort();
+
+    fs.writeFileSync(`cohort.json`, JSON.stringify(result, null, 2));
+
+    console.log(result);
+}
+
+main();
+
+module.exports = {
+    getStudentsFromCohort
+}
