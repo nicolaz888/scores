@@ -1,6 +1,7 @@
 const fs = require('fs');
 const readline = require('readline');
 const { google } = require('googleapis');
+const { arrColumnIndex } = require('./util/constants');
 
 // If modifying these scopes, delete token.json.
 const SCOPES = ['https://www.googleapis.com/auth/spreadsheets'];
@@ -10,11 +11,11 @@ const SCOPES = ['https://www.googleapis.com/auth/spreadsheets'];
 const TOKEN_PATH = 'token.json';
 
 // Load client secrets from a local file.
-function sheets(values) {
+function sheets(cohort, values) {
     fs.readFile('credentials.json', (err, content) => {
         if (err) return console.log('Error loading client secret file:', err);
         // Authorize a client with credentials, then call the Google Sheets API.
-        authorize(JSON.parse(content), listMajors, values);
+        authorize(JSON.parse(content), updateSheet, cohort, values);
     });
 }
 
@@ -24,7 +25,7 @@ function sheets(values) {
  * @param {Object} credentials The authorization client credentials.
  * @param {function} callback The callback to call with the authorized client.
  */
-function authorize(credentials, callback, values) {
+function authorize(credentials, callback, cohort, values) {
     const { client_secret, client_id, redirect_uris } = credentials.installed;
     const oAuth2Client = new google.auth.OAuth2(
         client_id, client_secret, redirect_uris[0]);
@@ -33,7 +34,7 @@ function authorize(credentials, callback, values) {
     fs.readFile(TOKEN_PATH, (err, token) => {
         if (err) return getNewToken(oAuth2Client, callback);
         oAuth2Client.setCredentials(JSON.parse(token));
-        callback(oAuth2Client, values);
+        callback(oAuth2Client, cohort, values);
     });
 }
 
@@ -73,69 +74,75 @@ function getNewToken(oAuth2Client, callback) {
  * @see https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
  * @param {google.auth.OAuth2} auth The authenticated Google OAuth client.
  */
-function listMajors(auth, values) {
-    const sheets = google.sheets({ version: 'v4', auth });
+async function updateSheet(auth, cohort, values) {
 
-    const spreadsheetId = '1usc6PPaVWMJdhN35hXjdPb19CPbPg56cefhTI68XxPM';
-    const range = `sample!B2:B${values.length + 1}`;
-    const valueInputOption = "RAW";
+    try {
+        const sheets = google.sheets({ version: 'v4', auth });
 
-    const resource = {
-        values,
-    };
-    sheets.spreadsheets.values.update({
-        spreadsheetId,
-        range,
-        valueInputOption,
-        resource,
-    }, (err, result) => {
-        if (err) {
-            // Handle error
-            console.log(err);
+        const spreadsheetId = process.env.SHEET_ID;
+
+        const sheet = `C${cohort.number} T${cohort.trimester}`;
+
+        const request = {
+            spreadsheetId,
+            range: `${sheet}!B2:N2`
+        };
+
+        const responseData = (await sheets.spreadsheets.values.get(request)).data;
+
+        const today = new Date();
+
+        const dateWeeks = responseData.values;
+
+        let column = 'Q';
+        let i = 1;
+
+        for (const item of dateWeeks[0]) {
+
+            const date = new Date(`${item}, 2021`);
+            const newDate = new Date(date);
+            newDate.setDate(date.getDate() + 6);
+
+            if (date <= today && today <= newDate) {
+                console.log(item);
+                column = arrColumnIndex[--i].column;
+                break;
+            }
+
+            i++;
         }
-        else {
-            console.log('%d cells updated.', result.data.updatedCells);
-        }
-    });
+
+        const range = `${sheet}!${column}3:${column}${values.length + 2}`;
+
+        const valueInputOption = 'RAW';
+        const resource = {
+            values,
+        };
+
+        sheets.spreadsheets.values.update(
+            {
+                spreadsheetId,
+                range,
+                valueInputOption,
+                resource,
+            },
+            (err, result) => {
+                if (err) {
+                    console.log(err);
+                }
+                else {
+                    console.log('%d cells updated.', result.data.updatedCells);
+                }
+            }
+        );
+
+    }
+    catch (error) {
+        console.log(`Error in updateSheet: ${error}`);
+    }
+
 }
-// function listMajors(auth) {
-//     const sheets = google.sheets({ version: 'v4', auth });
-//     sheets.spreadsheets.values.get({
-//         spreadsheetId: '1usc6PPaVWMJdhN35hXjdPb19CPbPg56cefhTI68XxPM',
-//         range: 'Class Data!A2:E',
-//     }, (err, res) => {
-//         if (err) return console.log('The API returned an error: ' + err);
-//         const rows = res.data.values;
-//         if (rows.length) {
-//             console.log('Name, Major:');
-//             // Print columns A and E, which correspond to indices 0 and 4.
-//             rows.map((row) => {
-//                 console.log(`${row[0]}, ${row[4]}`);
-//             });
-//         } else {
-//             console.log('No data found.');
-//         }
-//     });
-// }
-// function listMajors(auth) {
-//     const sheets = google.sheets({ version: 'v4', auth });
-//     sheets.spreadsheets.values.get({
-//         spreadsheetId: '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms',
-//         range: 'Class Data!A2:E',
-//     }, (err, res) => {
-//         if (err) return console.log('The API returned an error: ' + err);
-//         const rows = res.data.values;
-//         if (rows.length) {
-//             console.log('Name, Major:');
-//             // Print columns A and E, which correspond to indices 0 and 4.
-//             rows.map((row) => {
-//                 console.log(`${row[0]}, ${row[4]}`);
-//             });
-//         } else {
-//             console.log('No data found.');
-//         }
-//     });
-// }
+
 
 module.exports = {
     sheets

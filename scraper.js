@@ -1,10 +1,8 @@
 const puppeteer = require('puppeteer');
 const { PROGRAM_FOUNDATIONS } = require('./util/constants');
-require('dotenv').config()
 
 async function scrap(cohort) {
 
-    const scoresLink = cohort.program === PROGRAM_FOUNDATIONS ? "#scores_1" : "#scores_2";
     const scoresTable = cohort.program === PROGRAM_FOUNDATIONS ? '#scores_all_average_1' : '#scores_all_average_2';
 
     const browser = await puppeteer.launch();
@@ -24,7 +22,7 @@ async function scrap(cohort) {
     await page.goto(`https://intranet.hbtn.io/batches/${cohort.id}`);
 
 
-    await page.click(`a[role="tab"][href="${scoresLink}"]`);
+    await page.click(`a[role="tab"][href="#scores"]`);
 
     await page.screenshot({ path: 'example.png' });
 
@@ -41,26 +39,35 @@ async function scrap(cohort) {
 }
 
 async function getScores(cohort) {
-    const tds = await scrap(cohort);
+    try {
+        const tds = await scrap(cohort);
 
-    let finalScores = [];
+        let finalScores = [];
 
-    let i = 1;
-    let j = cohort.trimester + 1;
+        const trimester = cohort.program == PROGRAM_FOUNDATIONS ? cohort.trimester : cohort.trimester - 3;
 
-    for (const score of tds) {
+        let i = 1;
+        let j = trimester + 1;
 
-        if (i % j == 0) {
-            if (score !== ' ' && !tds[i - (cohort.trimester + 1)].includes('excluded from corrections')) {
-                finalScores.push([score]);
+        for (const score of tds) {
+
+            if (i % j == 0) {
+                if (score !== ' ' && !tds[i - (trimester + 1)].includes('excluded from corrections') && !tds[i - (trimester + 1)].includes('inactive')) {
+                    finalScores.push([parseFloat(score)]);
+                }
+                j += trimester + 2;
             }
-            j += cohort.trimester + 2;
+
+            i++;
         }
 
-        i++;
-    }
+        console.log(finalScores);
 
-    return finalScores;
+        return finalScores;
+    }
+    catch (error) {
+        console.log(`error en getScores: ${error}`);
+    }
 }
 
 module.exports = {
