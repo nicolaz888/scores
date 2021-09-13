@@ -81,7 +81,12 @@ async function updateSheet(auth, cohort, values) {
 
         const spreadsheetId = process.env.SHEET_ID;
 
-        const sheet = `C${cohort.number} T${cohort.trimester}`;
+        let sheet = `C${cohort.number} T${cohort.trimester}`;
+
+        //TODO: temp brrar cuando no haya cohorte bis
+        if (cohort.id == 97) {
+            sheet = `C${cohort.number}BIS T${cohort.trimester}`;
+        }
 
         const request = {
             spreadsheetId,
@@ -140,7 +145,6 @@ async function updateSheet(auth, cohort, values) {
     catch (error) {
         console.log(`Error in updateSheet: ${error}`);
     }
-
 }
 
 
